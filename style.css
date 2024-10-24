@@ -44,7 +44,7 @@ header nav a {
 
 #fractalCanvasContainer {
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ header nav a {
 
 #fractalCanvas {
     width: 60vw;  
-    height: half;
+    height: auto;
 }
 
 section {
