@@ -1,4 +1,3 @@
-/* General body settings */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,10 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Header styles */
 header {
     display: flex;
     flex-direction: column;
@@ -25,43 +22,36 @@ header {
     text-align: center;
 }
 
-/* Name color */
 header h1 {
-    color: white;
+    color: white; /* Keeping name color as white */
 }
 
-/* Navigation link styles */
 header nav a {
     color: white;
     margin: 10px;
     text-decoration: none;
 }
 
-/* Centering and adjusting fractal canvas */
 #fractalCanvasContainer {
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center; /* Centering the fractal */
+    justify-content: center; /* Ensuring the fractal is centered */
     align-items: center;
-    overflow: hidden; /* Ensure no overflow */
 }
 
 #fractalCanvas {
-    max-width: 100%; /* Ensuring the canvas fits within the viewport */
-    max-height: 100%; 
-    object-fit: contain; /* Keep it contained without stretching */
+    width: 75vw;  /* Making the fractal a bit smaller to adjust the sides */
+    height: 75vh;
 }
 
-/* General section styles */
 section {
-    max-width: 900px;  /* Reduced max-width to 900px */
+    max-width: 900px;  /* Further reducing the max-width to make the sides narrower */
     margin: 80px auto;
     padding: 20px;
     text-align: center;
 }
 
-/* List styles for social links */
 ul {
     list-style-type: none;
     padding: 0;
@@ -72,19 +62,16 @@ ul li {
     margin-right: 20px;
 }
 
-/* Links color */
 a {
     text-decoration: none;
     color: black;
 }
 
-/* Ensuring images don't overflow */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Grid container for research links */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
