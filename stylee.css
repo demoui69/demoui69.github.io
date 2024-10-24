@@ -1,9 +1,0 @@
-.mandelbrot-bg {
-    background: url('images/mandelbrot-fractal.jpg') no-repeat center center;
-    background-size: cover;
-    height: 60 vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
