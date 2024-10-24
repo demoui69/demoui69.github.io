@@ -10,12 +10,10 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: 25vh;  /* Reduce header to 25% of the screen height */
     padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    position: fixed;
-    width: 25%;  /* Reduced width */
-    z-index: 100;
     text-align: center;
 }
 
@@ -31,10 +29,11 @@ header nav a {
 
 #fractalCanvasContainer {
     width: 100vw;
-    height: 100vh;
-    position: fixed;  /* Full screen */
-    top: 0;
+    height: 75vh;  /* Fractal takes 75% of the screen height */
+    position: absolute;
+    top: 25vh;  /* Start fractal just below the header */
     left: 0;
+    right: 0;
 }
 
 #fractalCanvas {
