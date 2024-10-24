@@ -3,48 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fractal Minimalist Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Minimalist Website</h1>
+        <div class="logo">
+            <h1>Your Name</h1>
+            <p>Discover. Create. Share.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#writings">Writings</a></li>
+                <li><a href="#videos">Video Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="home">
-        <div class="fractal-container">
-            <img src="fractal.jpg" alt="Fractal Design" class="fractal-image">
+    <!-- Home section with Mandelbrot fractal background -->
+    <section id="home" class="mandelbrot-bg">
+        <div class="intro-text">
+            <h2>Welcome to My Digital Space</h2>
+            <p>Exploring ideas through creativity and fractal curiosity.</p>
         </div>
-        <h2>Explore the Infinite</h2>
-        <p>Welcome to my portfolio, a space where fractal designs and creative work converge.</p>
     </section>
 
-    <section id="portfolio">
-        <h2>Video Portfolio</h2>
-        <div class="video-container">
-            <video controls>
-                <source src="portfolio-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I’m fascinated by complexity and order, using creative thinking to simplify complex ideas. From storytelling to technical exploration, I believe in the power of expression.</p>
     </section>
 
     <section id="writings">
-        <h2>Writings & Research</h2>
-        <div class="writing-list">
-            <ul>
-                <li><a href="article1.pdf">Research Paper 1</a></li>
-                <li><a href="article2.pdf">Essay on Minimalism</a></li>
-                <li><a href="article3.pdf">Fractal Geometry Study</a></li>
-            </ul>
+        <h2>Writings</h2>
+        <div class="content">
+            <article>
+                <h3>Writing Title 1</h3>
+                <p>Link or description of a written piece here, showcasing thought-provoking insights.</p>
+            </article>
+            <article>
+                <h3>Writing Title 2</h3>
+                <p>Another sample of work that delves into your unique perspectives.</p>
+            </article>
         </div>
     </section>
 
-    <footer>
-        <p>Created by [Your Name] &copy; 2024</p>
-    </footer>
+    <!-- Video Portfolio Section with one video -->
+    <section id="videos" class="videos-section">
+        <h2>Video Portfolio</h2>
+        <div class="videos-grid">
+            <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
 
-    <script src="script.js"></script>
+    <footer id="contact">
+        <p>Get in touch: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </footer>
 </body>
 </html>
