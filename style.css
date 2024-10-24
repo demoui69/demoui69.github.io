@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; 
+    background-color: #000; /* Full black background */
     color: white;
     display: flex;
     flex-direction: column;
@@ -44,14 +44,14 @@ header nav a {
 
 #fractalCanvasContainer {
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #fractalCanvas {
-    width: 60vw;  
+    width: 60vw;  /* Adjust the width to match the screenshot size */
     height: auto;
 }
 
