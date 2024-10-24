@@ -51,8 +51,8 @@ header nav a {
 }
 
 #fractalCanvas {
-    width: 60vw;  /* Adjust the width to match the screenshot size */
-    height: auto;
+    width: 60vw;  
+    height: half;
 }
 
 section {
