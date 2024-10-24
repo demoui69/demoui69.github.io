@@ -23,30 +23,31 @@ header {
 }
 
 header h1 {
-    color: white; /* Changing name color to white */
+    color: white;
 }
 
-header nav a {
-    color: white;
-    margin: 10px;
-    text-decoration: none;
+header nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 #fractalCanvasContainer {
-    width: 100vw;
-    height: 100vh;
     display: flex;
-    justify-content: center; /* Centering the fractal */
+    justify-content: center;
     align-items: center;
+    width: 100vw;  /* Full width to ensure it spans across */
+    height: 100vh;
+    overflow: hidden;  /* Prevents any overflow of the fractal */
 }
 
 #fractalCanvas {
-    width: 80vw;  /* Adjusting size to make it smaller */
-    height: 80vh;
+    max-width: 100%;  /* Ensures no horizontal scroll */
+    height: auto;
 }
 
 section {
-    max-width: 1000px;  /* Reducing the max-width to make the site narrower */
+    max-width: 1000px;  /* Limits the content width */
     margin: 80px auto;
     padding: 20px;
     text-align: center;
